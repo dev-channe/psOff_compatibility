@@ -144,7 +144,6 @@
 &Details_View.Trophies.CurrGame=Titre actuel
 &Details_View.Trophies.CurrUser=Utilisateur actuel
 &Details_View.Trophies.UnlockAt=Déverrouillé à
-&Details_View.HintUIOpen=Appuyez sur « Espace » sur le clavier ou sur « Partager » sur la manette pour afficher l'interface graphique de l'émulateur pendant la session d'application.
 &CRun_View.BinPath=Chemin binaire 
 &CRun_View.RootPath=Chemin racine 
 &CRun_View.Args=Arguments d'exécution 
@@ -239,7 +238,7 @@
 &View_Dialog.SysMsg.UsrChat=Le chat est restreint
 &View_Dialog.SysMsg.UsrGenCont=Le contenu généré par l'utilisateur est restreint
 &View_Dialog.SysMsg.UsrStore=Aucun produit n'est disponible pour l'utilisateur
-&View_Dialog.UpdaterChild.Description=Pour mettre à jour la version de votre émulateur, fermez d'abord l'application en cours d'exécution et toutes les fenêtres de l'interface utilisateur !
+&View_Dialog.UpdaterChild.Description=Pour mettre à jour la version de votre émulateur, fermez d'abord l'application en cours d'exécution!
 &View_Dialog.UpdaterError.DescriptionConsole=Consultez la console pour plus de détails. L'émulateur sera complètement fermé une fois cette boîte de dialogue fermée.
 &View_Dialog.UpdaterError.Title=Échec de la mise à jour !
 &View_Dialog.UpdaterNewFFmpegVer.Description=Votre version de FFmpeg est obsolète. Souhaitez-vous la mettre à jour ?
@@ -270,5 +269,22 @@
 &Details_View.AppSpecific.ElfMismatch=Désactiver la vérification de la version du SDK
 &Details_View.AppSpecific.ElfMismatch.tt=Si ce paramètre est actif, l’émulateur ignorera les problèmes de version du SDK dans les bibliothèques et le binaire exécutable. Utilisez cette option uniquement si vous savez ce que vous faites !
 &Details_View.Trophies.KeyError=La clé du trophée dans les paramètres qui ne sont pas du tout définies ou invalides. Veuillez entrer la clé de décryptage des trophées afin d’obtenir la liste correcte des trophées ici. Sans la clé de trophée, vous ne pourrez pas débloquer les trophées dans vos applications, chaque trophée débloqué sera ignoré.&Details_View.AppSpecific.Networking=Enable Networking (WIP)
-&Details_View.AppSpecific.Networking.tt=If this setting is active, the emulator will enable experimental\nnetworking functionality, this setting may break a lot of games!
-&Details_View.AppSpecific.Networking=Enable Networking (WIP)
+&Details_View.AppSpecific.Networking.tt=Si ce paramètre est actif, l'émulateur activera des fonctionnalités réseau expérimentales ; ce paramètre peut rendre de nombreux jeux inutilisables !
+&Details_View.AppSpecific.Networking=Activer le réseau (en cours de développement)
+&View_Settings.GeneralTab.UiKey=Raccourci clavier de superposition
+&View_Settings.GeneralTab.DelLogs=Supprimer tous les anciens journaux au démarrage
+&View_Settings.GeneralTab.DelLogs.tt=Si cette case à cocher est activée, l'émulateur supprimera tous les anciens fichiers journaux du dossier des journaux.
+&View_Settings.UsersTab.Usr.PMic=Microphone
+&View_Settings.UsersTab.Usr.PMic.tt=Si l'application que vous exécutez prend en charge ou nécessite une entrée microphone,\nce périphérique sera utilisé comme périphérique AudioIn.\n\nCe paramètre peut être modifié pendant la session de l'application.
+&View_Settings.UsersTab.Usr.Calibrate=Calibrer
+&View_Settings.UsersTab.Usr.Calibrate.tt=Appuyez sur ce bouton pour ouvrir la fenêtre d'étalonnage de la manette.
+&View_Settings.PadCalib.Warning=Pour des raisons d'optimisation, les données lues depuis la manette ne seront affichées que lorsque l'application PS4 lit ces données. Vous pouvez modifier n'importe quel paramètre ici ; tout sera enregistré et appliqué.
+&Details_View.AppSpecific.NeoMode=Exécuter en mode Neo (PS4 Pro)
+&Details_View.AppSpecific.NeoMode.tt=Si ce paramètre est actif, l'émulateur exécutera ce titre en mode PS4 Pro.\nLimite de FPS plus élevée, utilisation de RAM plus importante, résolution 4K.
+&Details_View.AppSpecific.IntWorkAround=Activer la solution de contournement d'interception de la manette de jeu
+&Details_View.AppSpecific.IntWorkAround.tt=Si ce jeu continue à lire les informations de la manette même lorsque l'interface utilisateur de l'émulateur est ouverte, cette option peut être utilisée pour éviter les entrées non intentionnelles.
+&Details_View.HintUIOpen=Appuyez sur la touche de clavier configurée dans les paramètres ou sur le bouton « Partager » de votre manette pour afficher la superposition de l’émulateur pendant la session de l’application.
+&View_SSearch.UnFav=Effacer la liste des favoris
+&Notify.AppScannerErr.Inconsist=Incohérence de la bibliothèque détectée ! Reconstruction de la liste des applications…
+&Notify.LogSize.Description=Votre dossier « logs » est trop volumineux ! Il occupe plus de 512 Mo, vous devez le supprimer manuellement.
+&Notify.LogSize.Title=Le dossier Logs est trop volumineux
